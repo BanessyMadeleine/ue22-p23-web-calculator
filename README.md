@@ -18,3 +18,5 @@ Please push your code on a personal repo forked from this one.
 4. Modify scrpt.js in order to implement a functional calculator *<-- that's the exercise*
 5. baby steps please, don't hesitate to commit every time a small feature is working
 6. Push your repo whenever you think it's worth being reviewed by your teacher. For instance, you may even push your repo at every commits
+
+Bien vu !
