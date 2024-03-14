@@ -21,6 +21,9 @@ function afficherTrois() {
 
 
 
+
+
+
 //btn 0
 var buttonThree = document.getElementById('btn0');
 buttonThree.addEventListener('click', function() {
@@ -28,6 +31,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherZero() {
     console.log("zéro");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '0'
 }
 
 //btn 1
@@ -37,6 +43,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherUn() {
     console.log("un");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '1'
 }
 
 //btn 2
@@ -46,6 +55,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherDeux() {
     console.log("deux");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '2'
 }
 
 //btn 3
@@ -55,6 +67,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherTrois() {
     console.log("trois");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '3'
 }
 
 //btn 4
@@ -64,6 +79,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherQuatre() {
     console.log("quatre");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '4'
 }
 
 //btn 5
@@ -73,6 +91,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherCinq() {
     console.log("Cinq");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '5'
 }
 
 //btn 6
@@ -82,6 +103,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherSix() {
     console.log("Six");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '6'
 }
 
 //btn 7
@@ -91,6 +115,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherSept() {
     console.log("Sept");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '7'
 }
 
 //btn 8
@@ -100,6 +127,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherHuit() {
     console.log("Huit");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '8'
 }
 
 //btn 9
@@ -109,6 +139,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherNeuf() {
     console.log("Neuf");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '9'
 }
 
 //btn +
@@ -118,6 +151,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherPlus() {
     console.log("+");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '+'
 }
 
 //btn -
@@ -127,6 +163,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherMoins() {
     console.log("-");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '-'
 }
 
 //btn *
@@ -136,6 +175,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherFois() {
     console.log("*");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '*'
 }
 
 //btn /
@@ -145,6 +187,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherDiv() {
     console.log("/");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '/'
 }
 
 //btn .
@@ -154,6 +199,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherPt() {
     console.log(".");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '.'
 }
 
 //btn AC
@@ -163,6 +211,9 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherAC() {
     console.log("AC");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = ''
 }
 
 //btn =
@@ -172,11 +223,28 @@ buttonThree.addEventListener('click', function() {
 });
 function afficherEgal() {
     console.log("=");
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = '='
 }
 
 
+//btn
+//var button = document.getElementById('btn');
+//button.addEventListener('click', function() {
+//    afficher();
+//});
+//function afficher() {
+//    console.log(button.textContent);
+//    var elements = document.getElementsByClassName('calculator__display');
+//    var valeur_ecran = elements[0];
+//    valeur_ecran.textContent = button.textContent
+//}
 
 
+
+
+//Essai qui marche pas
 for (var i = 0; i < 10; i++) {
     var btn = document.getElementById('btn${i}');
     btn.addEventListener('click', function(){
