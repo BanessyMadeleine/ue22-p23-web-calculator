@@ -33,7 +33,14 @@ function afficherZero() {
     console.log("zéro");
     var elements = document.getElementsByClassName('calculator__display');
     var valeur_ecran = elements[0];
-    valeur_ecran.textContent = '0'
+    var ancienne_valeur = valeur_ecran.textContent;
+    var nouvelle_valeur = "0";
+    if (ancienne_valeur == 0) {
+        valeur_ecran.textContent = nouvelle_valeur
+    }
+    else {
+        valeur_ecran.textContent = ancienne_valeur + nouvelle_valeur;
+    }
 }
 
 //btn 1
@@ -45,7 +52,14 @@ function afficherUn() {
     console.log("un");
     var elements = document.getElementsByClassName('calculator__display');
     var valeur_ecran = elements[0];
-    valeur_ecran.textContent = '1'
+    var ancienne_valeur = valeur_ecran.textContent;
+    var nouvelle_valeur = "1";
+    if (ancienne_valeur == 0) {
+        valeur_ecran.textContent = nouvelle_valeur
+    }
+    else {
+        valeur_ecran.textContent = ancienne_valeur + nouvelle_valeur;
+    }
 }
 
 //btn 2
@@ -57,7 +71,14 @@ function afficherDeux() {
     console.log("deux");
     var elements = document.getElementsByClassName('calculator__display');
     var valeur_ecran = elements[0];
-    valeur_ecran.textContent = '2'
+    var ancienne_valeur = valeur_ecran.textContent;
+    var nouvelle_valeur = "2";
+    if (ancienne_valeur == 0) {
+        valeur_ecran.textContent = nouvelle_valeur
+    }
+    else {
+        valeur_ecran.textContent = ancienne_valeur + nouvelle_valeur;
+    }
 }
 
 //btn 3
@@ -69,7 +90,14 @@ function afficherTrois() {
     console.log("trois");
     var elements = document.getElementsByClassName('calculator__display');
     var valeur_ecran = elements[0];
-    valeur_ecran.textContent = '3'
+    var ancienne_valeur = valeur_ecran.textContent;
+    var nouvelle_valeur = "3";
+    if (ancienne_valeur == 0) {
+        valeur_ecran.textContent = nouvelle_valeur
+    }
+    else {
+        valeur_ecran.textContent = ancienne_valeur + nouvelle_valeur;
+    }
 }
 
 //btn 4
@@ -81,7 +109,14 @@ function afficherQuatre() {
     console.log("quatre");
     var elements = document.getElementsByClassName('calculator__display');
     var valeur_ecran = elements[0];
-    valeur_ecran.textContent = '4'
+    var ancienne_valeur = valeur_ecran.textContent;
+    var nouvelle_valeur = "4";
+    if (ancienne_valeur == 0) {
+        valeur_ecran.textContent = nouvelle_valeur
+    }
+    else {
+        valeur_ecran.textContent = ancienne_valeur + nouvelle_valeur;
+    }
 }
 
 //btn 5
@@ -93,7 +128,14 @@ function afficherCinq() {
     console.log("Cinq");
     var elements = document.getElementsByClassName('calculator__display');
     var valeur_ecran = elements[0];
-    valeur_ecran.textContent = '5'
+    var ancienne_valeur = valeur_ecran.textContent;
+    var nouvelle_valeur = "5";
+    if (ancienne_valeur == 0) {
+        valeur_ecran.textContent = nouvelle_valeur
+    }
+    else {
+        valeur_ecran.textContent = ancienne_valeur + nouvelle_valeur;
+    }
 }
 
 //btn 6
@@ -105,7 +147,14 @@ function afficherSix() {
     console.log("Six");
     var elements = document.getElementsByClassName('calculator__display');
     var valeur_ecran = elements[0];
-    valeur_ecran.textContent = '6'
+    var ancienne_valeur = valeur_ecran.textContent;
+    var nouvelle_valeur = "6";
+    if (ancienne_valeur == 0) {
+        valeur_ecran.textContent = nouvelle_valeur
+    }
+    else {
+        valeur_ecran.textContent = ancienne_valeur + nouvelle_valeur;
+    }
 }
 
 //btn 7
@@ -117,7 +166,14 @@ function afficherSept() {
     console.log("Sept");
     var elements = document.getElementsByClassName('calculator__display');
     var valeur_ecran = elements[0];
-    valeur_ecran.textContent = '7'
+    var ancienne_valeur = valeur_ecran.textContent;
+    var nouvelle_valeur = "7";
+    if (ancienne_valeur == 0) {
+        valeur_ecran.textContent = nouvelle_valeur
+    }
+    else {
+        valeur_ecran.textContent = ancienne_valeur + nouvelle_valeur;
+    }
 }
 
 //btn 8
@@ -129,7 +185,14 @@ function afficherHuit() {
     console.log("Huit");
     var elements = document.getElementsByClassName('calculator__display');
     var valeur_ecran = elements[0];
-    valeur_ecran.textContent = '8'
+    var ancienne_valeur = valeur_ecran.textContent;
+    var nouvelle_valeur = "8";
+    if (ancienne_valeur == 0) {
+        valeur_ecran.textContent = nouvelle_valeur
+    }
+    else {
+        valeur_ecran.textContent = ancienne_valeur + nouvelle_valeur;
+    }
 }
 
 //btn 9
@@ -141,7 +204,14 @@ function afficherNeuf() {
     console.log("Neuf");
     var elements = document.getElementsByClassName('calculator__display');
     var valeur_ecran = elements[0];
-    valeur_ecran.textContent = '9'
+    var ancienne_valeur = valeur_ecran.textContent;
+    var nouvelle_valeur = "9";
+    if (ancienne_valeur == 0) {
+        valeur_ecran.textContent = nouvelle_valeur
+    }
+    else {
+        valeur_ecran.textContent = ancienne_valeur + nouvelle_valeur;
+    }
 }
 
 //btn +
@@ -213,7 +283,7 @@ function afficherAC() {
     console.log("AC");
     var elements = document.getElementsByClassName('calculator__display');
     var valeur_ecran = elements[0];
-    valeur_ecran.textContent = ''
+    valeur_ecran.textContent = '0'
 }
 
 //btn =
