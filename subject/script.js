@@ -5,20 +5,6 @@
 
 // Afficher 3 quand on clique sur 3
 
-// Récupérez le bouton par son ID
-var buttonThree = document.getElementById('btn3');
-
-// Ajoutez un gestionnaire d'événement au clic du bouton
-buttonThree.addEventListener('click', function() {
-    // Appelez la fonction pour afficher "trois" dans la console
-    afficherTrois();
-});
-
-// Fonction pour afficher "trois" dans la console
-function afficherTrois() {
-    console.log("trois");
-}
-
 
 
 
@@ -26,7 +12,7 @@ function afficherTrois() {
 
 //btn 0
 var buttonThree = document.getElementById('btn0');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherZero();
 });
 function afficherZero() {
@@ -35,17 +21,18 @@ function afficherZero() {
     var valeur_ecran = elements[0];
     var ancienne_valeur = valeur_ecran.textContent;
     var nouvelle_valeur = "0";
-    if (ancienne_valeur == 0) {
+    if (ancienne_valeur === "0") {
         valeur_ecran.textContent = nouvelle_valeur
     }
     else {
         valeur_ecran.textContent = ancienne_valeur + nouvelle_valeur;
     }
 }
+//attention à la virgule
 
 //btn 1
 var buttonThree = document.getElementById('btn1');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherUn();
 });
 function afficherUn() {
@@ -54,7 +41,7 @@ function afficherUn() {
     var valeur_ecran = elements[0];
     var ancienne_valeur = valeur_ecran.textContent;
     var nouvelle_valeur = "1";
-    if (ancienne_valeur == 0) {
+    if (ancienne_valeur === "0") {
         valeur_ecran.textContent = nouvelle_valeur
     }
     else {
@@ -64,7 +51,7 @@ function afficherUn() {
 
 //btn 2
 var buttonThree = document.getElementById('btn2');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherDeux();
 });
 function afficherDeux() {
@@ -73,7 +60,7 @@ function afficherDeux() {
     var valeur_ecran = elements[0];
     var ancienne_valeur = valeur_ecran.textContent;
     var nouvelle_valeur = "2";
-    if (ancienne_valeur == 0) {
+    if (ancienne_valeur === "0") {
         valeur_ecran.textContent = nouvelle_valeur
     }
     else {
@@ -83,7 +70,7 @@ function afficherDeux() {
 
 //btn 3
 var buttonThree = document.getElementById('btn3');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherTrois();
 });
 function afficherTrois() {
@@ -92,7 +79,7 @@ function afficherTrois() {
     var valeur_ecran = elements[0];
     var ancienne_valeur = valeur_ecran.textContent;
     var nouvelle_valeur = "3";
-    if (ancienne_valeur == 0) {
+    if (ancienne_valeur === "0") {
         valeur_ecran.textContent = nouvelle_valeur
     }
     else {
@@ -102,7 +89,7 @@ function afficherTrois() {
 
 //btn 4
 var buttonThree = document.getElementById('btn4');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherQuatre();
 });
 function afficherQuatre() {
@@ -111,7 +98,7 @@ function afficherQuatre() {
     var valeur_ecran = elements[0];
     var ancienne_valeur = valeur_ecran.textContent;
     var nouvelle_valeur = "4";
-    if (ancienne_valeur == 0) {
+    if (ancienne_valeur === "0") {
         valeur_ecran.textContent = nouvelle_valeur
     }
     else {
@@ -121,7 +108,7 @@ function afficherQuatre() {
 
 //btn 5
 var buttonThree = document.getElementById('btn5');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherCinq();
 });
 function afficherCinq() {
@@ -130,7 +117,7 @@ function afficherCinq() {
     var valeur_ecran = elements[0];
     var ancienne_valeur = valeur_ecran.textContent;
     var nouvelle_valeur = "5";
-    if (ancienne_valeur == 0) {
+    if (ancienne_valeur === "0") {
         valeur_ecran.textContent = nouvelle_valeur
     }
     else {
@@ -140,7 +127,7 @@ function afficherCinq() {
 
 //btn 6
 var buttonThree = document.getElementById('btn6');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherSix();
 });
 function afficherSix() {
@@ -149,7 +136,7 @@ function afficherSix() {
     var valeur_ecran = elements[0];
     var ancienne_valeur = valeur_ecran.textContent;
     var nouvelle_valeur = "6";
-    if (ancienne_valeur == 0) {
+    if (ancienne_valeur === "0") {
         valeur_ecran.textContent = nouvelle_valeur
     }
     else {
@@ -159,7 +146,7 @@ function afficherSix() {
 
 //btn 7
 var buttonThree = document.getElementById('btn7');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherSept();
 });
 function afficherSept() {
@@ -168,7 +155,7 @@ function afficherSept() {
     var valeur_ecran = elements[0];
     var ancienne_valeur = valeur_ecran.textContent;
     var nouvelle_valeur = "7";
-    if (ancienne_valeur == 0) {
+    if (ancienne_valeur === "0") {
         valeur_ecran.textContent = nouvelle_valeur
     }
     else {
@@ -178,7 +165,7 @@ function afficherSept() {
 
 //btn 8
 var buttonThree = document.getElementById('btn8');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherHuit();
 });
 function afficherHuit() {
@@ -187,7 +174,7 @@ function afficherHuit() {
     var valeur_ecran = elements[0];
     var ancienne_valeur = valeur_ecran.textContent;
     var nouvelle_valeur = "8";
-    if (ancienne_valeur == 0) {
+    if (ancienne_valeur === "0") {
         valeur_ecran.textContent = nouvelle_valeur
     }
     else {
@@ -197,7 +184,7 @@ function afficherHuit() {
 
 //btn 9
 var buttonThree = document.getElementById('btn9');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherNeuf();
 });
 function afficherNeuf() {
@@ -206,7 +193,7 @@ function afficherNeuf() {
     var valeur_ecran = elements[0];
     var ancienne_valeur = valeur_ecran.textContent;
     var nouvelle_valeur = "9";
-    if (ancienne_valeur == 0) {
+    if (ancienne_valeur === "0") {
         valeur_ecran.textContent = nouvelle_valeur
     }
     else {
@@ -216,7 +203,7 @@ function afficherNeuf() {
 
 //btn +
 var buttonThree = document.getElementById('btn+');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherPlus();
 });
 function afficherPlus() {
@@ -235,7 +222,7 @@ function afficherPlus() {
 
 //btn -
 var buttonThree = document.getElementById('btn-');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherMoins();
 });
 function afficherMoins() {
@@ -254,7 +241,7 @@ function afficherMoins() {
 
 //btn *
 var buttonThree = document.getElementById('btnx');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherFois();
 });
 function afficherFois() {
@@ -273,7 +260,7 @@ function afficherFois() {
 
 //btn /
 var buttonThree = document.getElementById('btn/');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherDiv();
 });
 function afficherDiv() {
@@ -292,7 +279,7 @@ function afficherDiv() {
 
 //btn .
 var buttonThree = document.getElementById('btn.');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherPt();
 });
 function afficherPt() {
@@ -301,12 +288,13 @@ function afficherPt() {
     var valeur_ecran = elements[0];
     var ancienne_valeur = valeur_ecran.textContent;
     var nouvelle_valeur = ".";
-        valeur_ecran.textContent = ancienne_valeur + nouvelle_valeur;
+    valeur_ecran.textContent = ancienne_valeur + nouvelle_valeur;
+    // attention problème ça marche pas quand c'est 0.qch
 }
 
 //btn AC
 var buttonThree = document.getElementById('btnAC');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     afficherAC();
 });
 function afficherAC() {
@@ -318,7 +306,7 @@ function afficherAC() {
 
 //btn =
 var buttonThree = document.getElementById('btn=');
-buttonThree.addEventListener('click', function() {
+buttonThree.addEventListener('click', function () {
     calcul()
 });
 function afficherEgal() {
@@ -327,7 +315,7 @@ function afficherEgal() {
     var valeur_ecran = elements[0];
     valeur_ecran.textContent = '='
 }
-function calcul() {
+function addition() {
     //on récupère les données
     var elements = document.getElementsByClassName('calculator__display');
     var valeur_ecran = elements[0];
@@ -344,6 +332,50 @@ function calcul() {
     var valeur_ecran = elements[0];
     valeur_ecran.textContent = somme;
 
+}
+
+function calcul() {
+    //ne marche que quand c'est la même opération
+    //on récupère les données
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    var nombres = valeur_ecran.textContent.split(/[\+\-\*\/]/);
+    var symboles = valeur_ecran.textContent.split("");
+    console.log(nombres)
+    //on calcule la somme
+    if (symboles.includes("+")) {
+        var calc = 0
+        for (var i = 0; i < nombres.length; i++) {
+            calc += parseFloat(nombres[i]);
+            console.log(calc)
+        }
+    }
+    //on calcule la différence
+    if (symboles.includes("-")) {
+        var calc = nombres[0]
+        for (var i = 1; i < nombres.length; i++) {
+            calc -= parseFloat(nombres[i]);
+        }
+    }
+    //on calcule la produit
+    if (symboles.includes("*")) {
+        var calc = 0
+        for (var i = 0; i < nombres.length; i++) {
+            calc *= parseFloat(nombres[i]);
+        }
+    }
+    //on calcule le quotient
+    if (symboles.includes("/")) {
+        var calc = 0
+        for (var i = 0; i < nombres.length; i++) {
+            calc /= parseFloat(nombres[i]);
+        }
+    }
+    //on affiche la somme
+    console.log(calc)
+    var elements = document.getElementsByClassName('calculator__display');
+    var valeur_ecran = elements[0];
+    valeur_ecran.textContent = calc;
 }
 
 
@@ -365,10 +397,10 @@ function calcul() {
 //Essai qui marche pas
 for (var i = 0; i < 10; i++) {
     var btn = document.getElementById('btn${i}');
-    btn.addEventListener('click', function(){
+    btn.addEventListener('click', function () {
         affichernb;
     });
-    function affichernb(){
+    function affichernb() {
         console.log('${i}')
     }
 
