@@ -347,7 +347,6 @@ function calcul() {
         var calc = 0
         for (var i = 0; i < nombres.length; i++) {
             calc += parseFloat(nombres[i]);
-            console.log(calc)
         }
     }
     //on calcule la différence
@@ -359,19 +358,19 @@ function calcul() {
     }
     //on calcule la produit
     if (symboles.includes("*")) {
-        var calc = 0
-        for (var i = 0; i < nombres.length; i++) {
+        var calc = nombres[0]
+        for (var i = 1; i < nombres.length; i++) {
             calc *= parseFloat(nombres[i]);
         }
     }
     //on calcule le quotient
     if (symboles.includes("/")) {
-        var calc = 0
-        for (var i = 0; i < nombres.length; i++) {
+        var calc = nombres[0]
+        for (var i = 1; i < nombres.length; i++) {
             calc /= parseFloat(nombres[i]);
         }
     }
-    //on affiche la somme
+    //on affiche le résultat
     console.log(calc)
     var elements = document.getElementsByClassName('calculator__display');
     var valeur_ecran = elements[0];
