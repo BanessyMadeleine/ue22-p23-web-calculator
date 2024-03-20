@@ -213,31 +213,3 @@ function calcul() {
     var valeur_ecran = elements[0];
     valeur_ecran.textContent = calc;
 }
-
-
-//btn
-//var button = document.getElementById('btn');
-//button.addEventListener('click', function() {
-//    afficher();
-//});
-//function afficher() {
-//    console.log(button.textContent);
-//    var elements = document.getElementsByClassName('calculator__display');
-//    var valeur_ecran = elements[0];
-//    valeur_ecran.textContent = button.textContent
-//}
-
-
-
-
-//Essai qui marche pas
-for (var i = 0; i < 10; i++) {
-    var btn = document.getElementById('btn${i}');
-    btn.addEventListener('click', function () {
-        affichernb;
-    });
-    function affichernb() {
-        console.log('${i}')
-    }
-
-}
